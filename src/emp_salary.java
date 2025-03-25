@@ -43,7 +43,7 @@ public class emp_salary {
                 .collect(Collectors.toList());
 
         //Printing result
-        filteredNameSalaryList.forEach(x->System.out.print(x.getEmployee()+ "  "));
+        filteredNameSalaryList.forEach(x->System.out.print(x.getEmployee()+ " "));
 
 
 
